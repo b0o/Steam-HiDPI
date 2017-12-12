@@ -2,7 +2,7 @@
   styles {
     // --- buttons ------------------------------------
     Button
-    {     
+    {
 	font-family=basefont
 	font-size=20
 	font-weight=400
@@ -64,7 +64,7 @@
 	font-weight=400
 	textcolor="Label"
     }
-     
+
     "ListPanelColumnheader ListPanelCheckBox:focus"
     {
       font-family=basefont
@@ -77,7 +77,7 @@
     {
 	textcolor="Texthover"
     }
-      
+
     "Csteamrootdialog ListPanelColumnheader"
     {
 	font-family=basefont
@@ -88,7 +88,7 @@
 	font-style="uppercase"
     }
 
-   
+
     "Csteamrootdialog ListPanelColumnHeader:hover"
     {
 	textcolor="TextHover"
@@ -152,7 +152,7 @@
 
     // --- friend list ------------------------------------
     CFriendsListSectionAffordance
-    {     
+    {
       font-size=20
       font-weight=400
       textcolor="Label"
@@ -164,7 +164,7 @@
       font-size=13 [$OSX]
       font-weight=400
       textcolor="texthover"
-    }       
+    }
     CFriendPanel
     {
       font-family=basefont
@@ -181,7 +181,7 @@
 	textcolor="Text"
 	selectedtextcolor="TextSelected"
 	selectedbgcolor="Focus"
-	shadowtextcolor="TextDisabled"	// the color of disabled line items		
+	shadowtextcolor="TextDisabled"	// the color of disabled line items
     }
 
     // --- newsitem --------------------------------------
@@ -242,53 +242,53 @@
     {
 		bgcolor="MenuBG2"
     }
-      
+
     MenuBar
     {
     }
-    
+
     "Page MenuBar"
     {
     }
-    
-    "MenuBar MenuButton" 
+
+    "MenuBar MenuButton"
 	{
 		textcolor="buttonborder"
 	}
-	
- 	"MenuBar MenuButton:frameFocus" 
+
+ 	"MenuBar MenuButton:frameFocus"
 	{
 		textcolor="labeldisabled"
 	}
-	
-	"MenuBar MenuButton:frameFocus:hover" 
+
+	"MenuBar MenuButton:frameFocus:hover"
 	{
 		textcolor="texthover"
 	}
-	
-	"MenuBar MenuButton:frameFocus:selected" 
+
+	"MenuBar MenuButton:frameFocus:selected"
 	{
 		textcolor="texthover"
 	}
-	
+
     MenuButton
     {
       font-family=basefont
       font-size=20
       font-weight=400
       textcolor="scrollglyph"
-    }  
-   
+    }
+
     MenuButton:hover
     {
       textcolor="white"
     }
-    
+
     MenuButton:selected
     {
 		textcolor="white"
     }
-        
+
     MenuItem
     {
 		font-family=basefont
@@ -296,29 +296,29 @@
 		font-size=20
 		font-weight=400
     }
-   
+
   MenuItem:selected
     {
 		textcolor="TextHover"
     }
-	
+
   MenuItem:hover
     {
 		textcolor="white"
     }
-    
+
     MenuItem:disabled
     {
 		textcolor="labeldisabled"
 		shadowtextcolor=none
     }
-    
+
     MenuItem:disabled:hover
     {
 		textcolor="labeldisabled"
 		shadowtextcolor=none
     }
-   
+
     MenuSeparator
     {
 		textcolor="divider"
