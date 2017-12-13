@@ -1,0 +1,24 @@
+{
+  "name": "Steam-HiDPI",
+  "version": "1.0.0",
+  "description": "HiDPI skin for Steam",
+  "main": "gulpfile.js",
+  "repository": "https://github.com/b0o/Steam-HiDPI",
+  "author": "Maddison Hellstrom",
+  "license": "MIT",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "eslint": "^4.13.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.5.1",
+    "event-stream": "^3.3.4",
+    "gulp": "^3.9.1",
+    "gulp-batch-replace": "^0.0.0",
+    "gulp-eslint": "^4.0.0",
+    "gulp-replace": "^0.6.1",
+    "through2": "^2.0.3",
+    "yargs": "^10.0.3"
+  }
+}

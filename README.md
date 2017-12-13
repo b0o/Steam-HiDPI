@@ -1,34 +1,48 @@
-**DISCONTINUED: I GAVE UP ON THIS SKIN AND AM BACK ON WINDOWS FOR MY GAMING.**
-
-
-
-What is this?
+Steam-HiDPI
 =============
 
-This is a simple skin for Steam that gives everything a slightly larger font size.
+This is collection of skins which enlarge the Steam UI for better compatibility
+with high resolution monitors.
 
-I'm using Steam on Ubuntu with a HiDPI display and the original skin really sucks with hardcoded font sizes and no way to resize everything. Steam is not using the UI scale factor that I set via Ubuntus control panel, so I had to start this theme.
+By default, a scale factor of 1.5x is applied.
 
-I'm not quite sure how portable this is, so if you find something that breaks your set up, please open an Issue here on Github. If you want to contribute, feel free to open a pull request with your changes.
+It is also possible to specify arbitrary scale factors, e.g. 0.5x, 1.5x, 2x,
+etc. To do so, please first follow the [Installation](#installation)
+instructions and then refer to the [Customization](#customization) section
+below.
 
 Installation
 ------------
 
-````
-cd ~/.steam/skins
-git clone https://github.com/MoriTanosuke/HiDPI-Steam-Skin.git
-````
+1. Determine the location of your Steam skins directory.<br><br>
+   You can try using this command to find it:<br>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`find $HOME -name 'skins_readme.txt' -type f -printf '%h\n' 2>/dev/null`<br><br>
+   Possible locations may include:<br>
+   - `~/.local/share/Steam/skins/`
+   - `~/.steam/skins`
+   - `~/.steam/steam/skins`
 
-Open Steam, go to Settings -> Interface and choose the new skin `HiDPI-Steam-Skin`.
+2. Clone this repository to your Steam `skins` directory determined in step 1:
 
-The exact path to the skins might be different in your installation. You might want to check `~/.local/share/Steam/skins/`, `~/.steam/skins` or `~/.steam/steam/skins`.
+    ```bash
+    cd ~/.steam/steam/skins # Path from step 1
+    git clone https://github.com/b0o/Steam-HiDPI.git
+    ```
+
+3. Open/restart Steam, go to Settings -> Interface and choose the new skin `Steam-HiDPI`.
 
 Screenshots
 -----------
 
-Here are some screenshots provided by @mcvendrell 
+Here are some screenshots with before/after comparisons:
 
+<!-- TODO: update screenshots -->
 ![Screenshot #1](docs/screenshots/screenshot1.png)
 ![Screenshot #2](docs/screenshots/screenshot2.png)
 ![Screenshot #3](docs/screenshots/screenshot3.png)
 ![Screenshot #4](docs/screenshots/screenshot4.png)
+
+Customization
+------------
+
+TODO
